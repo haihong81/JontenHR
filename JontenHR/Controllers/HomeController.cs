@@ -15,14 +15,14 @@ namespace JontenHR.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "中天运会计师事务所简介";
 
             return View();
         }
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "联系我们：联系方式";
 
             return View();
         }
