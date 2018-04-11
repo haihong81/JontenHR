@@ -35,7 +35,7 @@ namespace JontenHR.Tests.Controllers
             ViewResult result = controller.About() as ViewResult;
 
             // Assert
-            Assert.AreEqual("Your application description page.", result.ViewBag.Message);
+            Assert.AreEqual("中天运会计师事务所简介", result.ViewBag.Message);
         }
 
         [TestMethod]
